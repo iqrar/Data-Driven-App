@@ -1,0 +1,96 @@
+<header>
+   <nav class="navbar inbody navbar-default">
+      <div class="container">
+         <h2 class = "text-center"> Data Driven App</h2>
+      </div>
+      <!-- container -->
+   </nav>
+</header>
+<!--Company Table -->
+<div class="panel-group" id="accordion">
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         <h4 class="panel-title">
+            <a onclick= "return false;" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+            Companies</a>
+         </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+         <div class="panel-body">
+            <div class = "fadeIn" style = "display:none">
+               <div class="table-responsive">
+                  <!--company form partial -->
+                  <div ng-include src = "'partials/company.html'"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--People Table -->
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         <h4 class="panel-title">
+            <a onclick= "return false;" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+            People</a>
+         </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+         <div class="panel-body">
+            <div class = "fadeIn" style = "display:none">
+               <div class="table-responsive">
+                  <!-- people form partials -->
+                  <div ng-include src = "'partials/people.html'"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--Role Table -->
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         <h4 class="panel-title">
+            <a onclick= "return false;" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+            Roles</a>
+         </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+         <div class="panel-body">
+            <div class = "fadeIn" style = "display:none">
+               <div class="table-responsive">
+                  <!-- role form partials -->
+                  <div ng-include src = "'partials/role.html'"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--Types Table -->
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         <h4 class="panel-title">
+            <a onclick= "return false;" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+            Types</a>
+         </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+         <div class="panel-body">
+            <div class = "fadeIn" style = "display:none">
+               <div class="table-responsive">
+                  <!-- type form partials -->
+                  <div ng-include src = "'partials/type.html'"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- description modal -->
+<div ng-include src = " 'partials/description.html'"></div>
+<!-- Add modal -->
+<div ng-include src = " 'partials/create.html' "></div>
+<!-- Edit modal -->
+<div ng-include src= " 'partials/edit.html' "></div>
+<!-- Delete modal -->
+<div ng-include  src = "'partials/delete.html'"></div>
+</div>
+</div>

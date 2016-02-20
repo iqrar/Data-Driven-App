@@ -1,0 +1,33 @@
+<form class="form-inline" ng-submit="dd()">
+   <table datatable="ng" dt-options="dtOptionsAddress" dt-column-defs="dtColumnDefsAddress" class="row-border hover">
+      <thead>
+         <tr>
+            <th>ID</th>
+            <th>Street</th>
+            <th>Number</th>
+            <th>City</th>
+            <th>Zip</th>
+            <th>
+               <div class="form-group">
+                  <div class = "widthIncrease">
+                     <button  ng-click = "postDataForm()"type="submit"  data-target = "#myModal" data-toggle = "modal" class="btn btn-success widthIncrease easing"><i  class="fa fa-plus"></i></button>
+                  </div>
+               </div>
+            </th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr ng-repeat ="company in companies" class = "getCursor">
+            <td ng-click = "editDataForm($index)" data-target = "#myModalSingleInfo" data-toggle = "modal">{{ company._id }}</td>
+            <td ng-click = "editDataForm($index)" data-target = "#myModalSingleInfo" data-toggle = "modal">{{ company.address.street }}</td>
+            <td ng-click = "editDataForm($index)" data-target = "#myModalSingleInfo" data-toggle = "modal">{{ company.address.number }}</td>
+            <td ng-click = "editDataForm($index)" data-target = "#myModalSingleInfo" data-toggle = "modal">{{ company.address.city }}</td>
+            <td ng-click = "editDataForm($index)" data-target = "#myModalSingleInfo" data-toggle = "modal">{{ company.address.zip }}</td>
+            <td>
+               <button type="button" ng-click = "editDataForm($index)" data-toggle = "modal" data-target = "#myModalEdit" class="btn btn-default"><img src = "images/edit.png"></button>
+               <button type="button" ng-click="remove2GetId($index)" data-target = "#myModaldelete" data-toggle = "modal" class="btn btn-default"><img src = "images/delete.png"></button>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+</form>

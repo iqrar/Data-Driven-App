@@ -1,0 +1,110 @@
+<!-- Add modal -->
+<div id="myModal" class="modal fade" role="dialog">
+   <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">
+               <h3 class = "text-center"> Create Record </h3>
+            </h4>
+         </div>
+         <div class="modal-body">
+            <div class = "well">
+               <!--company-->
+               <h2 class = "text-center formHeadings">Company</h2>
+               <div class="form-group">
+                  <label>ID:</label>
+                  <input type= "text" class="form-control" id="email" ng-model = "record2Add._id">
+               </div>
+               <div class="form-group">
+                  <label>Street:</label>
+                  <input type="text" class="form-control" id="pwd" ng-model = "record2Add.address.street">
+               </div>
+               <div class="form-group">
+                  <label>Number:</label>
+                  <input type="text" class="form-control" id="pwd" ng-model = "record2Add.address.number">
+               </div>
+               <div class="form-group">
+                  <label>City:</label>
+                  <input type="text" class="form-control" id="pwd" ng-model = "record2Add.address.city">
+               </div>
+               <div class="form-group">
+                  <label>Zip:</label>
+                  <input type="text" class="form-control" id="pwd" ng-model = "record2Add.address.zip">
+               </div>
+               <!--people-->
+               <div ng-repeat = "people in record2Add.people">
+                  <h2 class = "text-center formHeadings">People</h2>
+                  <!-- add role  buttons -->
+                  <div class = "center-block" style = "width:80px">
+                     <button class = "btn btn-success" ng-click = "addMorePeople($index)"> <i class = "fa fa-plus"></i></button>
+                     <button class = "btn btn-success" ng-click = "removeMorePeople($index)"> <i class = "fa fa-minus"></i></button>
+                  </div>
+                  <div class="form-group">
+                     <label>First Name:</label>
+                     <input type= "text" class="form-control" id="email" ng-model = "people.firstname">
+                  </div>
+                  <div class="form-group">
+                     <label>Last Name:</label>
+                     <input type="text" class="form-control" id="pwd" ng-model = "people.lastname">
+                  </div>
+                  <div class="form-group">
+                     <label>Street:</label>
+                     <input type="text" class="form-control" id="pwd" ng-model = "people.home.street">
+                  </div>
+                  <div class="form-group">
+                     <label>Number:</label>
+                     <input type="text" class="form-control" id="pwd" ng-model = "people.home.number">
+                  </div>
+                  <div class="form-group">
+                     <label>City:</label>
+                     <input type="text" class="form-control" id="pwd" ng-model ="people.home.city" >
+                  </div>
+                  <div class="form-group">
+                     <label>Zip:</label>
+                     <input type="text" class="form-control" id="pwd" ng-model ="people.home.zip" >
+                  </div>
+                  <!-- add role  buttons -->
+                  <h2 class = "text-center formHeadings">Role</h2>
+                  <div class = "center-block" style = "width:80px">
+                     <button class = "btn btn-success" ng-click = "addMoreRoles($index)"> <i class = "fa fa-plus"></i></button>
+                     <button class = "btn btn-success" ng-click = "removeMoreRoles($index)"> <i class = "fa fa-minus"></i></button>
+                  </div>
+                  <div ng-repeat = "role in people.roles">
+                     <div class="form-group">
+                        <label>Name:</label>
+                        <input type= "text" class="form-control" id="email" ng-model = "role.name">
+                     </div>
+                     <div class="form-group">
+                        <label>Description:</label>
+                        <input type="text" class="form-control" id="pwd" ng-model = "role.description">
+                     </div>
+                  </div >
+                  <!--role ng-repeat-->
+               </div>
+               <!--people ng-repeat-->
+               <!-- add type  buttons -->
+               <h2 class = "text-center formHeadings">Type</h2>
+               <div class = "center-block" style = "width:80px">
+                  <button class = "btn btn-success" ng-click = "addMoreTypes()"> <i class = "fa fa-plus"></i></button>
+                  <button class = "btn btn-success" ng-click = "removeMoreTypes()"> <i class = "fa fa-minus"></i></button>
+               </div>
+               <div ng-repeat = "type in record2Add.types">
+                  <div class="form-group">
+                     <label>Category:</label>
+                     <input type= "text" class="form-control" id="email" ng-model = "type.category">
+                  </div>
+                  <div class="form-group">
+                     <label>Name:</label>
+                     <input type="text" class="form-control" id="pwd" ng-model = "type.name">
+                  </div>
+               </div>
+               <!--type ng-repeat-->
+               <button type="submit" class="btn btn-success btn-block" ng-click = "add() " data-dismiss =  "modal">Submit</button>
+            </div>
+            <!--well-->
+         </div>
+      </div>
+   </div>
+</div>

@@ -1,0 +1,287 @@
+[
+  {
+    "_id": "0264db32-732e-407f-b57d-05257dff8e56",
+    "name": "ICfdcced10-dd6b-48b6-91dd-f6cc3c1729c7",
+    "address": {
+      "street": "Richard-sorge",
+      "number": "1",
+      "city": "Berlin",
+      "zip": "10249"
+    },
+    "people": [
+      {
+        "firstname": "jhon",
+        "lastname": "david",
+        "home": {
+          "street": "Mainzerstr.",
+          "number": "55A",
+          "city": "Munich",
+          "zip": "12334"
+        },
+        "roles": [
+          {
+            "name": "Administrator",
+            "description": "Administrative person"
+          }
+        ]
+      }
+    ],
+    "types": [
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "international health"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "dread desease"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Basic ability"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Daily sickness"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "health insurance"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "private health"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Additional_health"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Additional_health"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Additional_health"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "long term"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "private long"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "additional private"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Accident insurance "
+      }
+    ]
+  },
+  {
+    "_id": "0321da64-2e2f-4ebf-9cc6-ea904754e74c",
+    "name": "IC2de20ebd-2200-4f7c-99ad-5570d6703795",
+    "address": {
+      "street": "Oslo gata",
+      "number": "1",
+      "city": "Berlin",
+      "zip": "12334"
+    },
+    "people": [
+      {
+        "firstname": "Hansan",
+        "lastname": "Dorani",
+        "home": {
+          "street": "gata.",
+          "number": "55A",
+          "city": "Oslo",
+          "zip": "12334"
+        },
+        "roles": [
+          {
+            "name": "Administrator",
+            "description": "Administrative person"
+          }
+        ]
+      }
+    ],
+    "types": [
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "international health"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "dread desease"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Basic ability"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Daily sickness"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "health insurance"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "private health"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Additional_health"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Additional_health"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Additional_health"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "long term "
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "private long"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "additional private"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Accident insurance "
+      }
+    ]
+  },
+  {
+    "_id": "1188cf11-6cc9-4021-a0d0-377e46b99bb3",
+    "name": "IC58f466a3-dbff-4ae4-91a5-216000abeb4f",
+    "address": {
+      "street": "Oppsal",
+      "number": "1",
+      "city": "Oslo",
+      "zip": "1281"
+    },
+    "people": [
+      {
+        "firstname": "Roland",
+        "lastname": "Kaiser",
+        "home": {
+          "street": "Mainzerstr.",
+          "number": "55A",
+          "city": "Oslo",
+          "zip": "2356"
+        },
+        "roles": [
+          {
+            "name": "Administrator",
+            "description": "Administrative person"
+          }
+        ]
+      }
+    ],
+    "types": [
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "international health"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "dread desease"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Basic ability"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Daily sickness"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "health insurance"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "private health "
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Additional_health"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Additional_health"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Additional_health"
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "long term "
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "private long "
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "additional private "
+      },
+      {
+        "reference": "3370c42b-5d0a-4f1c-b39e-73cfe892122b",
+        "category": "Health",
+        "name": "Accident insurance "
+      }
+    ]
+  }
+]

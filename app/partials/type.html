@@ -1,0 +1,23 @@
+<form class="form-inline" ng-submit="dd()">
+   <table datatable="ng" dt-options="dtOptionsType" dt-column-defs="dtColumnDefsType" class="row-border hover">
+      <thead>
+         <tr>
+            <th></th>
+            <th>Category</th>
+            <th>Name</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr ng-hide = "true" ng-repeat-start = "company in companies">
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr ng-repeat-end ng-repeat = "type in company.types">
+            <td></td>
+            <td>{{type.category}}</td>
+            <td>{{type.name}}</td>
+         </tr>
+      </tbody>
+   </table>
+</form>

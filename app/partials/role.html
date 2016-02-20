@@ -1,0 +1,33 @@
+<form class="form-inline" ng-submit="dd()">
+   <table datatable="ng" dt-options="dtOptionsRol" dt-column-defs="dtColumnDefsRol" class="row-border hover">
+      <thead>
+         <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Description</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr ng-hide = "true" ng-repeat-start =  "company in companies">
+            <td ></td>
+            <td ></td>
+            <td ></td>
+         </tr>
+         <tr  ng-hide = "true"   ng-repeat-start =  "people in company.people">
+            <td ></td>
+            <td ></td>
+            <td ></td>
+         </tr>
+         <tr ng-repeat-end  ng-repeat= "role in people.roles ">
+            <td ></td>
+            <td >{{role.name}}</td>
+            <td>{{role.description}}</td>
+         </tr >
+         <tr ng-hide = "true"  ng-repeat-end >
+            <td ></td>
+            <td ></td>
+            <td ></td>
+         </tr>
+      </tbody>
+   </table>
+</form>
